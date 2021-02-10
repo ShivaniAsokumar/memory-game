@@ -14,7 +14,7 @@ class MakeRequest extends Component {
 		await axios
 			.get(`https://api.unsplash.com/search/photos`, {
 				params: {
-					query: 'people',
+					query: 'background',
 					page: '1',
 					per_page: '24',
 					orientation: 'squarish'
